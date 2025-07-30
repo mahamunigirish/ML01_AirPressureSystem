@@ -12,3 +12,5 @@ curl -O https://raw.githubusercontent.com/avnyadav/sensor-fault-detection/main/a
 '''
 
 This changes made in vs code
+
+So lts check now
