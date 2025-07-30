@@ -1,2 +1,22 @@
-pymongo
-pandas
+dill==0.3.7
+dnspython==2.5.0
+fastapi==0.95.1
+httptools==0.6.0
+imblearn==0.0  # This is a meta-package, the real one is below
+imbalanced-learn==0.11.0
+mypy-boto3-s3==1.26.0
+pip-chill==1.0.1
+pymongo==4.5.0
+python-dotenv==1.0.0
+types-s3transfer==0.6.1
+uvicorn==0.23.1
+watchfiles==0.20.0
+websockets==11.0.3
+wincertstore==0.2
+xgboost==1.7.6
+pandas==1.5.3
+PyYAML==6.0.1
+numpy==1.23.5
+scikit-learn==1.2.2
+apache-airflow==2.6.2
+-e .
