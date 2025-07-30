@@ -10,7 +10,6 @@ COLLECTION_NAME = "sensor"
 if __name__ == "__main__":
     df =  pd.read_csv(DATAFILE_PATH)
     print(f"Rows & Col :{df.shape}")
-    
     # convert dataframe into JSON
     df.reset_index(drop=True,inplace=True)
 
