@@ -11,5 +11,11 @@ if __name__ == "__main__":
         traning_pipeline_config = config_entity.TrainingPipelineConfig()
         data_ingestion_config = config_entity.DataIngestionConfig(traning_pipeline_config)
         print(data_ingestion_config.to_dict())
+
+        # ✅ Start data ingestion
+        data_ingestion_instance = data_ingestion.DataIngestion(data_ingestion_config)
+        data_ingestion_artifact = data_ingestion_instance.initiate_data_ingestion()
+        print(data_ingestion_artifact)
+        
     except Exception as e:
         print(e)
